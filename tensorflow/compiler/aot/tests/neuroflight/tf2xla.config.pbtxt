@@ -1,0 +1,10 @@
+feed {
+    id { node_name: "pi/vf/clip_by_value" }
+	shape { 
+		dim { size: 1}
+		dim { size: 7}
+	}
+}
+fetch {
+	id { node_name: "pi/pol/final/BiasAdd"}
+}
