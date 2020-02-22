@@ -1,7 +1,8 @@
-<div align="center">
-  <img src="https://www.tensorflow.org/images/tf_logo_transp.png"><br><br>
-</div>
+This is Tensorflow-1.8.0-rc1 with the LLVM ABI float hard patch applied
+which is required to build [Neuroflight](https://github.com/wil3/neuroflight). 
 
+This patch has been applied to `tensorflow/compiler/xla/service/llvm_ir/llvm_util.cc`.
+  
 -----------------
 
 
