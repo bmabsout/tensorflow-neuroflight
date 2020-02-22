@@ -119,7 +119,7 @@ Status Main(const MainFlags& flags) {
 }  // end namespace tensorflow
 
 int main(int argc, char** argv) {
-	std::cout << "Custom Compile Bitches\n";
+	std::cout << "Neuroflight custom tensorflow build!\n";
   tensorflow::tfcompile::MainFlags flags;
   flags.target_triple = "x86_64-pc-linux";
   flags.out_function_object = "out_model.o";
